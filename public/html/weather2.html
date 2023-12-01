@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App 2</title>
+    <link href="css/weather2.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <h1 class="title-header">Local Weather</h1>
+            <div id="weather-container">
+                <h1 id="city-name"> </h1>
+                <h1 id="city-temp"> </h1>
+                <p id="city-condition"> </p>
+                <p id="city-precipitation"> </p>
+            </div>
+            <div class="button-container">
+                <input type="text" id="text" placeholder="City Name"></input>
+                <button onclick="getWeather()"> Submit </button>
+            </div>
+    </div>
+<script src="js/weather2.js"></script>
+</body>
+</html>
