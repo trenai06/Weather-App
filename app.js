@@ -32,12 +32,6 @@ const weather = [
     condition: "Sunny",
     precipitation: "0%",
   },
-  {
-    city:"Please",
-    temp: "Choose",
-    condition: "Valid",
-    precipitation: "Option"
-  },
 ];
 
 app.get("/", (req, res) => {
@@ -56,6 +50,7 @@ app.get("/weather/:city", (req, res) => {
     } 
   }
 });
+
 
 app.listen(3000);
 console.log("Express Weather 2 is working ");
