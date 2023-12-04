@@ -22,19 +22,19 @@ function getWeather() {
 
       if (info.condition === "Sunny") {
         document.getElementById("weather-container").style.backgroundImage =
-          "url('/Assets/sunny.jpg')";
+          "url('/Assets/maxresdefault.webp')";
         document.getElementById("weather-container").style.boxShadow =
           "10px 10px 10px 10px black";
         cityCondition.innerText = `${info.condition}` + " " + `☀️`;
       } else if (info.condition === "Cloudy") {
         document.getElementById("weather-container").style.backgroundImage =
-          "url('/Assets/cloudy.webp')";
+          "url('/Assets/cloudy.jpg')";
         document.getElementById("weather-container").style.boxShadow =
           "10px 10px 10px 10px black";
         cityCondition.innerText = `${info.condition}` + " " + `☁️`;
       } else if (info.condition === "Snowy") {
         document.getElementById("weather-container").style.backgroundImage =
-          "url('/Assets/snowy.jpg')";
+          "url('/Assets/snowy.webp')";
         document.getElementById("weather-container").style.boxShadow =
           "10px 10px 10px 10px black";
         cityCondition.innerText = `${info.condition}` + " " + `❄️`;
@@ -45,3 +45,6 @@ function getWeather() {
       console.log(error);
     });
 }
+
+
+//if you are getting back an array, use a loop. if just individual values, no loop. 
