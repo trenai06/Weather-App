@@ -10,7 +10,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  background-image: url(/Assets/weather.jpg);
+  background-image: url(/Assets/weather2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -33,8 +33,11 @@
   align-items: center;
   justify-content: space-evenly;
   color: black;
-  -webkit-text-stroke-color: darkgrey;
+  -webkit-text-stroke-color: darkgray;
   -webkit-text-stroke-width: 1px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bolder;
 }
 
 #city-name {
@@ -50,7 +53,7 @@
 }
 
 #city-precipitation {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 #text {

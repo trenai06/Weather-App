@@ -8,28 +8,28 @@ const weather = [
   {
     city: "Louisville",
     temp: "63º",
-    condition: "Sunny ☀️",
+    condition: "Sunny",
     precipitation: "0%",
   },
 
   {
     city: "Chicago",
     temp: "43º",
-    condition: "Cloudy ☁️",
+    condition: "Cloudy",
     precipitation: "20%",
   },
 
   {
     city: "New York",
     temp: "32º",
-    condition: "Snowy ❄️",
+    condition: "Snowy",
     precipitation: "100%",
   },
 
   {
     city: "Miami",
     temp: "79º",
-    condition: "Sunny ☀️",
+    condition: "Sunny",
     precipitation: "0%",
   },
   {
